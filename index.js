@@ -1,4 +1,4 @@
-// let ID1 = document.getElementById("ID1");
+/*// let ID1 = document.getElementById("ID1");
 // ID1.innerHTML = "I am a Programmer";
 
 // let ClassName1 = document.getElementsByClassName("ClassName1")[0];
@@ -12,4 +12,16 @@
 
 // document.querySelector("#ID1");
 // document.querySelector(".ClassName1");
-// document.querySelectorAll("h1");
+// document.querySelectorAll("h1");*/
+
+// Oneclick Event JS Dom
+
+function clickMe() {
+    document.write('Button Clicked!');
+}
+function clickMe1() {
+    document.getElementById('ID1').innerHTML = Date();
+}
+
+
+
