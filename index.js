@@ -25,8 +25,13 @@ function clickMe1() {
 
 // Traversing Dom Elements
 
-let pNote = document.querySelector(`.pNote`);
-console.log(pNote.parentNode);
+/*let pNote = document.querySelector(`.pNote`);
+console.log(pNote.parentNode);*/
+
+let ParentDiv = document.querySelector(".ParentDiv");
+
+console.log(ParentDiv.firstElementChild);
+console.log(ParentDiv.lastElementChild);
 
 
 
