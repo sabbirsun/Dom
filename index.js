@@ -16,12 +16,17 @@
 
 // Oneclick Event JS Dom
 
-function clickMe() {
+/*function clickMe() {
     document.write('Button Clicked!');
 }
 function clickMe1() {
     document.getElementById('ID1').innerHTML = Date();
-}
+}*/
+
+// Traversing Dom Elements
+
+let pNote = document.querySelector(`.pNote`);
+console.log(pNote.parentNode);
 
 
 
