@@ -36,8 +36,12 @@ console.log(pNote.parentNode);*/
 
 // Sibling Element 
 
-let current = document.querySelector(".current");
+/*let current = document.querySelector(".current");
 //console.log(current.nextElementSibling);
-console.log(current.previousElementSibling);
+console.log(current.previousElementSibling);*/
+
+// Get Element DOM Manipulation ....> Every HTML code in JS create
+
+
 
 
