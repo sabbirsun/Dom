@@ -42,6 +42,25 @@ console.log(current.previousElementSibling);*/
 
 // Get Element DOM Manipulation ....> Every HTML code in JS create
 
+/*let div = document.createElement("div");
+div.id = "SabbirID";
+div.className = "SabbirClass";
+// let text = document.createTextNode("Inner text into the Div.");
+// div.appendChild(text);
 
+let h1 = document.createElement("h1");
+h1.textContent = "Inner h1 tag text.";
+div.appendChild(h1);
+document.body.appendChild(div); // Show div p*/
 
+let ul = document.createElement("ul");
+ul.id = "menu";
+let li1 = document.createElement("li");
+li1.textContent = "Home";
+ul.appendChild(li1);
+document.body.appendChild(ul);
+let li2 =  document.createElement("li");
+li2.textContent = "About";
+ul.appendChild(li2);
+document.body.appendChild(ul);
 
