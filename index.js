@@ -53,7 +53,7 @@ h1.textContent = "Inner h1 tag text.";
 div.appendChild(h1);
 document.body.appendChild(div); // Show div p*/
 
-let ul = document.createElement("ul");
+/*let ul = document.createElement("ul");
 ul.id = "menu";
 let li1 = document.createElement("li");
 li1.textContent = "Home";
@@ -62,5 +62,8 @@ document.body.appendChild(ul);
 let li2 =  document.createElement("li");
 li2.textContent = "About";
 ul.appendChild(li2);
-document.body.appendChild(ul);
+document.body.appendChild(ul);*/
 
+let script = document.createElement("script");
+script.src = "sabbir.js";
+document.body.appendChild(script);
