@@ -70,7 +70,7 @@ document.body.appendChild(script);*/
 
 // Manupulating elements appendchild
 
-let menu = document.querySelector(".menu");
+/*let menu = document.querySelector(".menu");
 function createMenu(name){
     let li = document.createElement("li");
     li.textContent = name;
@@ -78,4 +78,9 @@ function createMenu(name){
 }
 menu.appendChild(createMenu("Sabbirul"));
 menu.appendChild(createMenu("Islam"));
-menu.appendChild(createMenu("Sun"));
+menu.appendChild(createMenu("Sun"));*/
+
+//Text Content Manipulating Elements
+
+let note = document.getElementById("note");
+console.log(note.textContent);
