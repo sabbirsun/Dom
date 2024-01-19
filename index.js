@@ -64,6 +64,18 @@ li2.textContent = "About";
 ul.appendChild(li2);
 document.body.appendChild(ul);*/
 
-let script = document.createElement("script");
+/*let script = document.createElement("script");
 script.src = "sabbir.js";
-document.body.appendChild(script);
+document.body.appendChild(script);*/
+
+// Manupulating elements appendchild
+
+let menu = document.querySelector(".menu");
+function createMenu(name){
+    let li = document.createElement("li");
+    li.textContent = name;
+    return li;
+}
+menu.appendChild(createMenu("Sabbirul"));
+menu.appendChild(createMenu("Islam"));
+menu.appendChild(createMenu("Sun"));
