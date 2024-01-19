@@ -28,10 +28,16 @@ function clickMe1() {
 /*let pNote = document.querySelector(`.pNote`);
 console.log(pNote.parentNode);*/
 
-let ParentDiv = document.querySelector(".ParentDiv");
+/*let ParentDiv = document.querySelector(".ParentDiv");
 
-console.log(ParentDiv.firstElementChild);
-console.log(ParentDiv.lastElementChild);
+// console.log(ParentDiv.firstElementChild);
+// console.log(ParentDiv.lastElementChild);
+// console.log(ParentDiv.childNodes);*/
 
+// Sibling Element 
+
+let current = document.querySelector(".current");
+//console.log(current.nextElementSibling);
+console.log(current.previousElementSibling);
 
 
