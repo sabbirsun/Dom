@@ -97,7 +97,9 @@ console.log(menu.innerHTML);*/
 
 menu.innerHTML = "<p>JS DOM Tutorial</p>";*/
 
-let menu = document.querySelector("#menu");
+// Fragment Document
+
+/*let menu = document.querySelector("#menu");
 let lang = [`python`, `JS`, `PHP`, `Java`];
 
 let fragment = document.createDocumentFragment();
@@ -107,4 +109,12 @@ lang.forEach((language) =>{
     fragment.appendChild(li);
 })
 
-menu.appendChild(fragment);
+menu.appendChild(fragment);*/
+
+// InsertBefore 
+
+/*let menu = document.querySelector("#menu");
+let li = document.createElement("li");
+li.textContent = "Home";
+menu.insertBefore(li, menu.firstElementChild);*/
+
