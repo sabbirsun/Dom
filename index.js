@@ -87,5 +87,12 @@ console.log(note.textContent);*/
 
 // InnerHTML ....> Very Important
 
-let menu = document.querySelector(".menu");
-console.log(menu.innerHTML);
+/*let menu = document.querySelector(".menu");
+console.log(menu.innerHTML);*/
+
+ let menu = document.querySelector("#menu");
+// let p = document.createElement("p");
+// p.textContent = "JS DOM tutorial";
+// menu.appendChild(p);
+
+menu.innerHTML = "<p>JS DOM Tutorial</p>";
