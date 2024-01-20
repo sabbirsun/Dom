@@ -142,3 +142,11 @@ let DOMScript1 = names.map((names) =>{
 })
 apps.prepend(...DOMScript1);*/
 
+// Don Insert Adjacent HTML Method 
+
+let manu = document.querySelector("#menu");
+menu.insertAdjacentHTML("beforebegin", "<h3>beforbegin</h3>");
+menu.insertAdjacentHTML("afterbegin", "<h3>afterbegin</h3>");
+menu.insertAdjacentHTML("afterend", "<h3>afterend</h3>");
+menu.insertAdjacentHTML("beforeend", "<h3>beforeend</h3>");
+
