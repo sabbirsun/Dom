@@ -90,9 +90,21 @@ console.log(note.textContent);*/
 /*let menu = document.querySelector(".menu");
 console.log(menu.innerHTML);*/
 
- let menu = document.querySelector("#menu");
+/* let menu = document.querySelector("#menu");
 // let p = document.createElement("p");
 // p.textContent = "JS DOM tutorial";
 // menu.appendChild(p);
 
-menu.innerHTML = "<p>JS DOM Tutorial</p>";
+menu.innerHTML = "<p>JS DOM Tutorial</p>";*/
+
+let menu = document.querySelector("#menu");
+let lang = [`python`, `JS`, `PHP`, `Java`];
+
+let fragment = document.createDocumentFragment();
+lang.forEach((language) =>{
+    let li = document.createElement("li");
+    li.textContent = language;
+    fragment.appendChild(li);
+})
+
+menu.appendChild(fragment);
