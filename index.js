@@ -82,5 +82,10 @@ menu.appendChild(createMenu("Sun"));*/
 
 //Text Content Manipulating Elements
 
-let note = document.getElementById("note");
-console.log(note.textContent);
+/*let note = document.getElementById("note");
+console.log(note.textContent);*/
+
+// InnerHTML ....> Very Important
+
+let menu = document.querySelector(".menu");
+console.log(menu.innerHTML);
