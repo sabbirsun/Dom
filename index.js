@@ -144,9 +144,34 @@ apps.prepend(...DOMScript1);*/
 
 // Don Insert Adjacent HTML Method 
 
-let manu = document.querySelector("#menu");
+/*let manu = document.querySelector("#menu");
 menu.insertAdjacentHTML("beforebegin", "<h3>beforbegin</h3>");
 menu.insertAdjacentHTML("afterbegin", "<h3>afterbegin</h3>");
 menu.insertAdjacentHTML("afterend", "<h3>afterend</h3>");
-menu.insertAdjacentHTML("beforeend", "<h3>beforeend</h3>");
+menu.insertAdjacentHTML("beforeend", "<h3>beforeend</h3>");*/
+
+// Replace, Clone, Remove Child in JS ....> Very important
+
+let menu = document.querySelector("#menu");
+
+// Replace-Child
+/* let li = document.createElement("li");
+
+ li.textContent = "Home";
+
+ menu.replaceChild(li, menu.firstElementChild);
+ menu.replaceChild(li, menu.lastElementChild);*/
+
+// Remove-Child
+
+ /*menu.removeChild(menu.firstElementChild);
+ menu.removeChild(menu.lastElementChild);*/
+
+// Clone Node
+
+/*let cloneNode = menu.cloneNode(true);
+cloneNode.id = "cloneID";
+document.body.appendChild(cloneNode);*/
+
+
 
