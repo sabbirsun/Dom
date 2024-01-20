@@ -118,3 +118,27 @@ let li = document.createElement("li");
 li.textContent = "Home";
 menu.insertBefore(li, menu.firstElementChild);*/
 
+// Append & Prepend Method
+
+/*let app = document.querySelector("#app");
+let name = [`Sabbirul`,`Islam`,`Sun`];
+
+let DOMScript = name.map((name) =>{
+    let li = document.createElement("li");
+    li.textContent = name;
+    return li;
+})
+app.append(...DOMScript);
+
+// Prepend
+
+let apps = document.querySelector("#apps");
+let names = [`I`,`Love`,`You`];
+
+let DOMScript1 = names.map((names) =>{
+    let li = document.createElement("li");
+    li.textContent = names;
+    return li;
+})
+apps.prepend(...DOMScript1);*/
+
