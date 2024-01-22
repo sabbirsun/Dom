@@ -229,3 +229,9 @@ menu.classList.replace("Sun", "Sayla");
 menu.classList.check("Sun");
 menu.classList.toggle("Sun");*/
 
+// JS Get The Width & Height of An Element Using DOM
+
+let menu = document.querySelector("div");
+let width = menu.offsetWidth;
+let Height = menu.offsetHeight;
+console.log(width,Height);
