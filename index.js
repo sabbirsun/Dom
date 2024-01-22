@@ -152,7 +152,7 @@ menu.insertAdjacentHTML("beforeend", "<h3>beforeend</h3>");*/
 
 // Replace, Clone, Remove Child in JS ....> Very important
 
-let menu = document.querySelector("#menu");
+//let menu = document.querySelector("#menu");
 
 // Replace-Child
 /* let li = document.createElement("li");
@@ -175,29 +175,35 @@ document.body.appendChild(cloneNode);*/
 
 // JS Dom Working With Attribute 
 
-// let div = document.querySelector("div");
-// div.id = "menu";
+/*let div = document.querySelector("div");
+div.id = "menu";
 
-// setAttribute
-// let btn = document.querySelector("#btn");
-// if(btn){
-//     btn.setAttribute("class", "Sabbir");
-// }
-// let btn = document.querySelector("#btn");
-// if(btn){
-//     console.log(btn.getAttribute("target"));
-// }
+setAttribute
+let btn = document.querySelector("#btn");
+if(btn){
+    btn.setAttribute("class", "Sabbir");
+}
+let btn = document.querySelector("#btn");
+if(btn){
+    console.log(btn.getAttribute("target"));
+}
 
-// RemoveAttribute
+RemoveAttribute
 
-// let btn = document.querySelector("#btn");
-// if(btn){
-//     console.log(btn.removeAttribute("target"));
-// }
+let btn = document.querySelector("#btn");
+if(btn){
+    console.log(btn.removeAttribute("target"));
+}
 
-// hasAttribute
+hasAttribute
 
 let btn = document.querySelector("#btn");
 if(btn){
     console.log(btn.hasAttribute("id")); // Class id check true or false
-}
+}*/
+
+// JS Dom Style Property ....> Very Important
+
+let menu = document.querySelector("#menu");
+menu.style.color = "red";
+menu.style.textAlign = "center";
