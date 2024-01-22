@@ -220,4 +220,12 @@ console.log(style.width);*/
 p.className = "Sun"; // Class name change
 console.log(p.className);*/
 
+// Dom Class List Property ....> Class add, remove, replace, check
+
+/*let menu = document.querySelector("#menu")
+menu.classList.add("Sabbirul", "Islam", "Sun");
+menu.classList.remove("Sun");
+menu.classList.replace("Sun", "Sayla");
+menu.classList.check("Sun");
+menu.classList.toggle("Sun");*/
 
