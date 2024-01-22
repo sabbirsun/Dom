@@ -173,5 +173,31 @@ let menu = document.querySelector("#menu");
 cloneNode.id = "cloneID";
 document.body.appendChild(cloneNode);*/
 
+// JS Dom Working With Attribute 
 
+// let div = document.querySelector("div");
+// div.id = "menu";
 
+// setAttribute
+// let btn = document.querySelector("#btn");
+// if(btn){
+//     btn.setAttribute("class", "Sabbir");
+// }
+// let btn = document.querySelector("#btn");
+// if(btn){
+//     console.log(btn.getAttribute("target"));
+// }
+
+// RemoveAttribute
+
+// let btn = document.querySelector("#btn");
+// if(btn){
+//     console.log(btn.removeAttribute("target"));
+// }
+
+// hasAttribute
+
+let btn = document.querySelector("#btn");
+if(btn){
+    console.log(btn.hasAttribute("id")); // Class id check true or false
+}
