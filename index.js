@@ -204,6 +204,12 @@ if(btn){
 
 // JS Dom Style Property ....> Very Important
 
-let menu = document.querySelector("#menu");
+/*let menu = document.querySelector("#menu");
 menu.style.color = "red";
-menu.style.textAlign = "center";
+menu.style.textAlign = "center";*/
+
+// Dom Get Computed Style Method
+
+/*let menu = document.querySelector("#menu");
+let style = getComputedStyle(menu, "::first-letter");
+console.log(style.width);*/
