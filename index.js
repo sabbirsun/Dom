@@ -213,3 +213,11 @@ menu.style.textAlign = "center";*/
 /*let menu = document.querySelector("#menu");
 let style = getComputedStyle(menu, "::first-letter");
 console.log(style.width);*/
+
+// JS Dom CLassName Property
+
+/*let p = document.querySelector("p");
+p.className = "Sun"; // Class name change
+console.log(p.className);*/
+
+
